@@ -1,0 +1,14 @@
+.vs/
+x64/
+Debug/
+Release/
+*.user
+*.suo
+*.aps
+0
+Bank_Sys.ae20c994/
+ClientsFile.txt
+UsersFile.txt
+CurrencyFile.txt
+LoginRegister.txt
+TransferLog.txt
