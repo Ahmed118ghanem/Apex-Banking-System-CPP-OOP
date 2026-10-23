@@ -141,9 +141,9 @@ private:
 		TransferLog.Date_Time = vRecord[0];
 		TransferLog.SourceAccount = vRecord[1];
 		TransferLog.DestinationAccount = vRecord[2];
-		TransferLog.amount = stoi(vRecord[3]);
-		TransferLog.SBalance = stoi(vRecord[4]);
-		TransferLog.DBalance = stoi(vRecord[5]);
+		TransferLog.amount = stod(vRecord[3]);
+		TransferLog.SBalance = stod(vRecord[4]);
+		TransferLog.DBalance = stod(vRecord[5]);
 		TransferLog.UserName = vRecord[6];
 		return TransferLog;
 	}
